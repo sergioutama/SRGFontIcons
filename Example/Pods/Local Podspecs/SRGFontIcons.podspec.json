@@ -1,0 +1,28 @@
+{
+  "name": "SRGFontIcons",
+  "version": "0.1.0",
+  "summary": "A short description of SRGFontIcons.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sergioutama/SRGFontIcons",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sergioutama": "sergio.utama@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sergioutama/SRGFontIcons.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SRGFontIcons/Classes/**/*",
+  "resource_bundles": {
+    "SRGFontIcons": [
+      "SRGFontIcons/Assets/Fonts/*.ttf",
+      "SRGFontIcons/Assets/Fonts/*.ttf"
+    ]
+  }
+}

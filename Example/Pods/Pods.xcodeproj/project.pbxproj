@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01975D89419CA2804C9EB9CBB2CA8BD4 /* Pods-SRGFontIcons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BDA900BCFE103AAF93350F19145102 /* Pods-SRGFontIcons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6E4A3217A3B82AA739909FBCD0CD3A /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16CEBF6A5E627FA099896D861BC533EA /* MaterialIcons.ttf */; };
+		0BB4D31220B343209C0A1AAA4B6AD72F /* FontIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599DAE95A347F4CA5E38B066C9673948 /* FontIcons.swift */; };
+		129F3664933E7376E5B22DB444BF5628 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A7C2FB9C56DB2306E4CE4F4BDCD87C /* FontAwesome5_Regular.ttf */; };
+		17D30A09B7700AC8BD6FFE89898F6555 /* SRGFontIcons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BBFD8D117DFBC6987F44ECE3F93154C9 /* SRGFontIcons.bundle */; };
+		2A97E76FE1D3E831EA0513CCBEC3C8A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B9F890008385EB54B270C238C719757 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F49C24017EF93BEFE8C7B0E5FF11C73F /* Fontisto.ttf */; };
+		483FFF9FDCF079D60D9E1BDD93BC4E4B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34C908202F7457DA3EE5C6EBB0846E30 /* FontAwesome.ttf */; };
+		5251FA225F7BF26BEF53B4997EF6C182 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C028B82155945EDBD712C66BD8D350B /* Zocial.ttf */; };
+		5B7CE247742A0691FBF08E8229DDCB60 /* Pods-SRGFontIcons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE908418B4B732061BAF086CAB8DCB /* Pods-SRGFontIcons_Tests-dummy.m */; };
+		6D766723456F8DE0FCBD039E613F121D /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7540FC4EEF279EF821A324E91E884B /* Entypo.ttf */; };
+		71C384F63B43B6E68D38F4841B0C02CF /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A0BD4B885DFE3993C571EF325EBDB90 /* Octicons.ttf */; };
+		7D48C5817D9C7768593E14136C03E994 /* Pods-SRGFontIcons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE147D0D2813EFF5D5016EC67DB8378E /* Pods-SRGFontIcons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E458954B8A6E155504C3E474F5F208B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04CF152FE37F9100B7ED92F8A1F5574 /* SimpleLineIcons.ttf */; };
+		A045357EDBB0A2BAB50BEC19C55DF7F7 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD0B53B4C0C138D00C9695E8B7ED9655 /* FontAwesome5_Solid.ttf */; };
+		A0DCAD8D714A50DA6C730A57C7831752 /* SRGFontIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF33187FE3F97714A86CEF5E52FCAD /* SRGFontIcons-dummy.m */; };
+		A798720B125EEA3B394AD37EA3DFFBDF /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 606CE85413CE795A84882A9DD7576113 /* Foundation.ttf */; };
+		AE848CE6E9640FAE10484545783102C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B7DCCAA2FBAC5A82DAE03E4BAACFA7E6 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1917431B3621525381C48F993F3B2EBD /* FontAwesome5_Brands.ttf */; };
+		D021A56971AE8170FB6717B223F97198 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAF98AEC185BD59B0B2515717B4F25D6 /* MaterialCommunityIcons.ttf */; };
+		D1EA76D75C309527B4FED531C38B7809 /* SRGFontIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBA575C7BF98544F52A86E38A0435BB /* SRGFontIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D320245EF139CC895ECFEF9FFD6E3C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E12CEF56BFC5FB09E0B00C22AAA672A4 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A63DDC88A5746F697C43258AAE69B59 /* Feather.ttf */; };
+		E40B1BC3E5A3D36EAF8459A61344FB4F /* Pods-SRGFontIcons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F6ECB3637C7588CD944DFE12F51E7F /* Pods-SRGFontIcons_Example-dummy.m */; };
+		ED161451DA44D58D5C6A3C2108F96A30 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 898284A4E84B03A735126AB9DDE21426 /* AntDesign.ttf */; };
+		EE5EA011DE26E50F217684B1E51DB4D0 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E281F0C93874ED67DDA32F1F01079 /* Ionicons.ttf */; };
+		F8BD706EE6829CD77D18B30F787E4BA1 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8D6B8C88456EBD8CBA9654624996E2A /* EvilIcons.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		117BD42FB985D60720A86D992AB94447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A258837F57C8ED7CDAF9114361D03615;
+			remoteInfo = SRGFontIcons;
+		};
+		7DC12CBB45CCA2EFC381714292EB67F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F15CDD38167EC53F40719BF6AB12559;
+			remoteInfo = "SRGFontIcons-SRGFontIcons";
+		};
+		C919678034641635EFF6FFBE085D2D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB17B34B2B5CA19677734BED363F544;
+			remoteInfo = "Pods-SRGFontIcons_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DF2E75BA664677EFDC5D91A2A27DBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		08173E0D11CBBC39BEEF387207C0334F /* SRGFontIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SRGFontIcons.modulemap; sourceTree = "<group>"; };
+		0A63DDC88A5746F697C43258AAE69B59 /* Feather.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Feather.ttf; path = SRGFontIcons/Assets/Fonts/Feather.ttf; sourceTree = "<group>"; };
+		0C7540FC4EEF279EF821A324E91E884B /* Entypo.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Entypo.ttf; path = SRGFontIcons/Assets/Fonts/Entypo.ttf; sourceTree = "<group>"; };
+		132ADC81B315FFADFEC3C9F0C8390E35 /* Pods-SRGFontIcons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SRGFontIcons_Tests.modulemap"; sourceTree = "<group>"; };
+		15F6ECB3637C7588CD944DFE12F51E7F /* Pods-SRGFontIcons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRGFontIcons_Example-dummy.m"; sourceTree = "<group>"; };
+		16CEBF6A5E627FA099896D861BC533EA /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialIcons.ttf; path = SRGFontIcons/Assets/Fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		1917431B3621525381C48F993F3B2EBD /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome5_Brands.ttf; path = SRGFontIcons/Assets/Fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		2DE98A641109BBFCB9D470A90582CC71 /* Pods-SRGFontIcons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGFontIcons_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2EAAC466CFE2C30065AE5D0290719674 /* SRGFontIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SRGFontIcons.framework; path = SRGFontIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE42BCD949A3B4E7CB814C5343C4E74 /* Pods-SRGFontIcons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGFontIcons_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2FFF33187FE3F97714A86CEF5E52FCAD /* SRGFontIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SRGFontIcons-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34C908202F7457DA3EE5C6EBB0846E30 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = SRGFontIcons/Assets/Fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		39CB44F67801422FACF27A83722EA453 /* Pods-SRGFontIcons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGFontIcons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		422BA9432C047CD16BD65F1517E38A0F /* Pods-SRGFontIcons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRGFontIcons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B154233E2F576F2B2E1A3BA00C175E9 /* SRGFontIcons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SRGFontIcons.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D9E281F0C93874ED67DDA32F1F01079 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = SRGFontIcons/Assets/Fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		5917C7083CD6C522803AEAF84DE73E54 /* ResourceBundle-SRGFontIcons-SRGFontIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SRGFontIcons-SRGFontIcons-Info.plist"; sourceTree = "<group>"; };
+		593C3CAE6A2D086F35CDA9EE916A1AFF /* Pods-SRGFontIcons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SRGFontIcons_Example.modulemap"; sourceTree = "<group>"; };
+		599DAE95A347F4CA5E38B066C9673948 /* FontIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIcons.swift; path = SRGFontIcons/Classes/FontIcons.swift; sourceTree = "<group>"; };
+		606CE85413CE795A84882A9DD7576113 /* Foundation.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Foundation.ttf; path = SRGFontIcons/Assets/Fonts/Foundation.ttf; sourceTree = "<group>"; };
+		6C028B82155945EDBD712C66BD8D350B /* Zocial.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Zocial.ttf; path = SRGFontIcons/Assets/Fonts/Zocial.ttf; sourceTree = "<group>"; };
+		6DCEFD2790AD05039621597387D5DD11 /* SRGFontIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRGFontIcons-prefix.pch"; sourceTree = "<group>"; };
+		898284A4E84B03A735126AB9DDE21426 /* AntDesign.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = AntDesign.ttf; path = SRGFontIcons/Assets/Fonts/AntDesign.ttf; sourceTree = "<group>"; };
+		8A0BD4B885DFE3993C571EF325EBDB90 /* Octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Octicons.ttf; path = SRGFontIcons/Assets/Fonts/Octicons.ttf; sourceTree = "<group>"; };
+		8D23384AA6433F99D59A9E9817D144A8 /* SRGFontIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SRGFontIcons.xcconfig; sourceTree = "<group>"; };
+		8DBA575C7BF98544F52A86E38A0435BB /* SRGFontIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SRGFontIcons-umbrella.h"; sourceTree = "<group>"; };
+		977DDB792ED8F8F3D6709CDF5B3477E8 /* SRGFontIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SRGFontIcons-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E46124A2561C0FBEA79F6D6A122C974 /* Pods-SRGFontIcons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRGFontIcons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A04CF152FE37F9100B7ED92F8A1F5574 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleLineIcons.ttf; path = SRGFontIcons/Assets/Fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		A5E0DF6CF7B1873C910F21BC1CC22C69 /* Pods-SRGFontIcons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SRGFontIcons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AECE908418B4B732061BAF086CAB8DCB /* Pods-SRGFontIcons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SRGFontIcons_Tests-dummy.m"; sourceTree = "<group>"; };
+		B0A7C2FB9C56DB2306E4CE4F4BDCD87C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome5_Regular.ttf; path = SRGFontIcons/Assets/Fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		B240370DC488358204DA710D2224CC99 /* Pods-SRGFontIcons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRGFontIcons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B44FC1FFD998C2EBDEC5E518B75BC3E2 /* Pods-SRGFontIcons_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRGFontIcons_Tests-Info.plist"; sourceTree = "<group>"; };
+		B5A07B9614C6AAA20EE66ED300D729EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BBFD8D117DFBC6987F44ECE3F93154C9 /* SRGFontIcons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SRGFontIcons.bundle; path = "SRGFontIcons-SRGFontIcons.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0B53B4C0C138D00C9695E8B7ED9655 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome5_Solid.ttf; path = SRGFontIcons/Assets/Fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		C691E23180E70722063D4A3FA0DEE2B0 /* Pods_SRGFontIcons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRGFontIcons_Example.framework; path = "Pods-SRGFontIcons_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D6B8C88456EBD8CBA9654624996E2A /* EvilIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = EvilIcons.ttf; path = SRGFontIcons/Assets/Fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		E097AA30D962E2B49354AC5A9A2E18D2 /* Pods-SRGFontIcons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SRGFontIcons_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E1417707E46D031DFB0A26216823CC8A /* Pods-SRGFontIcons_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRGFontIcons_Example-Info.plist"; sourceTree = "<group>"; };
+		E3BDA900BCFE103AAF93350F19145102 /* Pods-SRGFontIcons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRGFontIcons_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EAF98AEC185BD59B0B2515717B4F25D6 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialCommunityIcons.ttf; path = SRGFontIcons/Assets/Fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		F49C24017EF93BEFE8C7B0E5FF11C73F /* Fontisto.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Fontisto.ttf; path = SRGFontIcons/Assets/Fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		FD11B39C339542FEFC51A1D90576D864 /* Pods-SRGFontIcons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SRGFontIcons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE147D0D2813EFF5D5016EC67DB8378E /* Pods-SRGFontIcons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRGFontIcons_Example-umbrella.h"; sourceTree = "<group>"; };
+		FF82ABDC1F3C878DDA19F804A38DC165 /* Pods_SRGFontIcons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SRGFontIcons_Tests.framework; path = "Pods-SRGFontIcons_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2328C92F20B2B7302C9E500DD306AF02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE848CE6E9640FAE10484545783102C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62159C889B895CAD3EB91778E7862505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A97E76FE1D3E831EA0513CCBEC3C8A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905792BE033C6F23465BC3BD17843AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC84C3A6358B497C62F98CC6B2DDFE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D320245EF139CC895ECFEF9FFD6E3C83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EFEBE2ED811CCB03B11F77EF514ACF /* Pods-SRGFontIcons_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				132ADC81B315FFADFEC3C9F0C8390E35 /* Pods-SRGFontIcons_Tests.modulemap */,
+				422BA9432C047CD16BD65F1517E38A0F /* Pods-SRGFontIcons_Tests-acknowledgements.markdown */,
+				9E46124A2561C0FBEA79F6D6A122C974 /* Pods-SRGFontIcons_Tests-acknowledgements.plist */,
+				AECE908418B4B732061BAF086CAB8DCB /* Pods-SRGFontIcons_Tests-dummy.m */,
+				B44FC1FFD998C2EBDEC5E518B75BC3E2 /* Pods-SRGFontIcons_Tests-Info.plist */,
+				E3BDA900BCFE103AAF93350F19145102 /* Pods-SRGFontIcons_Tests-umbrella.h */,
+				B240370DC488358204DA710D2224CC99 /* Pods-SRGFontIcons_Tests.debug.xcconfig */,
+				2FE42BCD949A3B4E7CB814C5343C4E74 /* Pods-SRGFontIcons_Tests.release.xcconfig */,
+			);
+			name = "Pods-SRGFontIcons_Tests";
+			path = "Target Support Files/Pods-SRGFontIcons_Tests";
+			sourceTree = "<group>";
+		};
+		1494EB5392D27DB10166C96D2270493F /* Pods-SRGFontIcons_Example */ = {
+			isa = PBXGroup;
+			children = (
+				593C3CAE6A2D086F35CDA9EE916A1AFF /* Pods-SRGFontIcons_Example.modulemap */,
+				A5E0DF6CF7B1873C910F21BC1CC22C69 /* Pods-SRGFontIcons_Example-acknowledgements.markdown */,
+				FD11B39C339542FEFC51A1D90576D864 /* Pods-SRGFontIcons_Example-acknowledgements.plist */,
+				15F6ECB3637C7588CD944DFE12F51E7F /* Pods-SRGFontIcons_Example-dummy.m */,
+				E097AA30D962E2B49354AC5A9A2E18D2 /* Pods-SRGFontIcons_Example-frameworks.sh */,
+				E1417707E46D031DFB0A26216823CC8A /* Pods-SRGFontIcons_Example-Info.plist */,
+				FE147D0D2813EFF5D5016EC67DB8378E /* Pods-SRGFontIcons_Example-umbrella.h */,
+				2DE98A641109BBFCB9D470A90582CC71 /* Pods-SRGFontIcons_Example.debug.xcconfig */,
+				39CB44F67801422FACF27A83722EA453 /* Pods-SRGFontIcons_Example.release.xcconfig */,
+			);
+			name = "Pods-SRGFontIcons_Example";
+			path = "Target Support Files/Pods-SRGFontIcons_Example";
+			sourceTree = "<group>";
+		};
+		2CFB9B1DE577F90B1B4D8FB6AD4C58CA /* SRGFontIcons */ = {
+			isa = PBXGroup;
+			children = (
+				599DAE95A347F4CA5E38B066C9673948 /* FontIcons.swift */,
+				D5BCA63DC009253BFF5732E163A4B23E /* Pod */,
+				EC2267A05785279D97EEBD3276354FC9 /* Resources */,
+				FD0A07EEB31B3FA5A7D410E4CC383470 /* Support Files */,
+			);
+			name = SRGFontIcons;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		88647C3683B7C3A9195A1EA293B7DBBE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CFB9B1DE577F90B1B4D8FB6AD4C58CA /* SRGFontIcons */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8DA11A9A42E4DEF72A31781FEE4CF885 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1494EB5392D27DB10166C96D2270493F /* Pods-SRGFontIcons_Example */,
+				00EFEBE2ED811CCB03B11F77EF514ACF /* Pods-SRGFontIcons_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		917ABCC7427939BB296E94FA73047026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C691E23180E70722063D4A3FA0DEE2B0 /* Pods_SRGFontIcons_Example.framework */,
+				FF82ABDC1F3C878DDA19F804A38DC165 /* Pods_SRGFontIcons_Tests.framework */,
+				BBFD8D117DFBC6987F44ECE3F93154C9 /* SRGFontIcons.bundle */,
+				2EAAC466CFE2C30065AE5D0290719674 /* SRGFontIcons.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				88647C3683B7C3A9195A1EA293B7DBBE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				917ABCC7427939BB296E94FA73047026 /* Products */,
+				8DA11A9A42E4DEF72A31781FEE4CF885 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5BCA63DC009253BFF5732E163A4B23E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B5A07B9614C6AAA20EE66ED300D729EB /* LICENSE */,
+				04DF2E75BA664677EFDC5D91A2A27DBD /* README.md */,
+				4B154233E2F576F2B2E1A3BA00C175E9 /* SRGFontIcons.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EC2267A05785279D97EEBD3276354FC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				898284A4E84B03A735126AB9DDE21426 /* AntDesign.ttf */,
+				0C7540FC4EEF279EF821A324E91E884B /* Entypo.ttf */,
+				D8D6B8C88456EBD8CBA9654624996E2A /* EvilIcons.ttf */,
+				0A63DDC88A5746F697C43258AAE69B59 /* Feather.ttf */,
+				34C908202F7457DA3EE5C6EBB0846E30 /* FontAwesome.ttf */,
+				1917431B3621525381C48F993F3B2EBD /* FontAwesome5_Brands.ttf */,
+				B0A7C2FB9C56DB2306E4CE4F4BDCD87C /* FontAwesome5_Regular.ttf */,
+				BD0B53B4C0C138D00C9695E8B7ED9655 /* FontAwesome5_Solid.ttf */,
+				F49C24017EF93BEFE8C7B0E5FF11C73F /* Fontisto.ttf */,
+				606CE85413CE795A84882A9DD7576113 /* Foundation.ttf */,
+				4D9E281F0C93874ED67DDA32F1F01079 /* Ionicons.ttf */,
+				EAF98AEC185BD59B0B2515717B4F25D6 /* MaterialCommunityIcons.ttf */,
+				16CEBF6A5E627FA099896D861BC533EA /* MaterialIcons.ttf */,
+				8A0BD4B885DFE3993C571EF325EBDB90 /* Octicons.ttf */,
+				A04CF152FE37F9100B7ED92F8A1F5574 /* SimpleLineIcons.ttf */,
+				6C028B82155945EDBD712C66BD8D350B /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FD0A07EEB31B3FA5A7D410E4CC383470 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5917C7083CD6C522803AEAF84DE73E54 /* ResourceBundle-SRGFontIcons-SRGFontIcons-Info.plist */,
+				08173E0D11CBBC39BEEF387207C0334F /* SRGFontIcons.modulemap */,
+				8D23384AA6433F99D59A9E9817D144A8 /* SRGFontIcons.xcconfig */,
+				2FFF33187FE3F97714A86CEF5E52FCAD /* SRGFontIcons-dummy.m */,
+				977DDB792ED8F8F3D6709CDF5B3477E8 /* SRGFontIcons-Info.plist */,
+				6DCEFD2790AD05039621597387D5DD11 /* SRGFontIcons-prefix.pch */,
+				8DBA575C7BF98544F52A86E38A0435BB /* SRGFontIcons-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SRGFontIcons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0917933358FCFB355DA9561FA8D367FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01975D89419CA2804C9EB9CBB2CA8BD4 /* Pods-SRGFontIcons_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54962D9246AAE8959FB2E257D5AA6BE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D48C5817D9C7768593E14136C03E994 /* Pods-SRGFontIcons_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CA6B268061112C32F70B420DA712B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1EA76D75C309527B4FED531C38B7809 /* SRGFontIcons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EB17B34B2B5CA19677734BED363F544 /* Pods-SRGFontIcons_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F247A15EA58FFF75B8158836EC3D10AD /* Build configuration list for PBXNativeTarget "Pods-SRGFontIcons_Example" */;
+			buildPhases = (
+				54962D9246AAE8959FB2E257D5AA6BE6 /* Headers */,
+				3A517E2E025540F722DAB6204D1B434B /* Sources */,
+				62159C889B895CAD3EB91778E7862505 /* Frameworks */,
+				BA54F2F6282EB4C9B672776EB43D1B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C4F8E9BB55C5EAA88B53E09D29F9A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SRGFontIcons_Example";
+			productName = "Pods-SRGFontIcons_Example";
+			productReference = C691E23180E70722063D4A3FA0DEE2B0 /* Pods_SRGFontIcons_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F15CDD38167EC53F40719BF6AB12559 /* SRGFontIcons-SRGFontIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B09A580E354C086611320878E2C2071 /* Build configuration list for PBXNativeTarget "SRGFontIcons-SRGFontIcons" */;
+			buildPhases = (
+				CB5BC56EF669E0E79A9B5FD5FE942AFE /* Sources */,
+				905792BE033C6F23465BC3BD17843AD3 /* Frameworks */,
+				B6EFF956C24F96AAF79932923008B00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SRGFontIcons-SRGFontIcons";
+			productName = "SRGFontIcons-SRGFontIcons";
+			productReference = BBFD8D117DFBC6987F44ECE3F93154C9 /* SRGFontIcons.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A258837F57C8ED7CDAF9114361D03615 /* SRGFontIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DE28378630A8020F97A4007073F3ED /* Build configuration list for PBXNativeTarget "SRGFontIcons" */;
+			buildPhases = (
+				D4CA6B268061112C32F70B420DA712B8 /* Headers */,
+				B6F1AAF892A6A80D0100AB25F7FF649D /* Sources */,
+				2328C92F20B2B7302C9E500DD306AF02 /* Frameworks */,
+				8BCEB7E25D5EFE695CC7D34504980124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5829FD5F2BB2D2BFE15AA77F36AF90E /* PBXTargetDependency */,
+			);
+			name = SRGFontIcons;
+			productName = SRGFontIcons;
+			productReference = 2EAAC466CFE2C30065AE5D0290719674 /* SRGFontIcons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1538BD94D3F3F63131B4E3ED437AAE1 /* Pods-SRGFontIcons_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F01267704F2305701F5A4762AB6FAE9 /* Build configuration list for PBXNativeTarget "Pods-SRGFontIcons_Tests" */;
+			buildPhases = (
+				0917933358FCFB355DA9561FA8D367FD /* Headers */,
+				4F28182D07A8C0E2C609EA7289E3F50B /* Sources */,
+				BC84C3A6358B497C62F98CC6B2DDFE13 /* Frameworks */,
+				80C78166754C5B6164F888118B3BD244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABCDB2DC2615DA3DC1F2BDCDD4BC22E /* PBXTargetDependency */,
+			);
+			name = "Pods-SRGFontIcons_Tests";
+			productName = "Pods-SRGFontIcons_Tests";
+			productReference = FF82ABDC1F3C878DDA19F804A38DC165 /* Pods_SRGFontIcons_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 917ABCC7427939BB296E94FA73047026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB17B34B2B5CA19677734BED363F544 /* Pods-SRGFontIcons_Example */,
+				B1538BD94D3F3F63131B4E3ED437AAE1 /* Pods-SRGFontIcons_Tests */,
+				A258837F57C8ED7CDAF9114361D03615 /* SRGFontIcons */,
+				2F15CDD38167EC53F40719BF6AB12559 /* SRGFontIcons-SRGFontIcons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C78166754C5B6164F888118B3BD244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCEB7E25D5EFE695CC7D34504980124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D30A09B7700AC8BD6FFE89898F6555 /* SRGFontIcons.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EFF956C24F96AAF79932923008B00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED161451DA44D58D5C6A3C2108F96A30 /* AntDesign.ttf in Resources */,
+				6D766723456F8DE0FCBD039E613F121D /* Entypo.ttf in Resources */,
+				F8BD706EE6829CD77D18B30F787E4BA1 /* EvilIcons.ttf in Resources */,
+				E12CEF56BFC5FB09E0B00C22AAA672A4 /* Feather.ttf in Resources */,
+				483FFF9FDCF079D60D9E1BDD93BC4E4B /* FontAwesome.ttf in Resources */,
+				B7DCCAA2FBAC5A82DAE03E4BAACFA7E6 /* FontAwesome5_Brands.ttf in Resources */,
+				129F3664933E7376E5B22DB444BF5628 /* FontAwesome5_Regular.ttf in Resources */,
+				A045357EDBB0A2BAB50BEC19C55DF7F7 /* FontAwesome5_Solid.ttf in Resources */,
+				2B9F890008385EB54B270C238C719757 /* Fontisto.ttf in Resources */,
+				A798720B125EEA3B394AD37EA3DFFBDF /* Foundation.ttf in Resources */,
+				EE5EA011DE26E50F217684B1E51DB4D0 /* Ionicons.ttf in Resources */,
+				D021A56971AE8170FB6717B223F97198 /* MaterialCommunityIcons.ttf in Resources */,
+				0A6E4A3217A3B82AA739909FBCD0CD3A /* MaterialIcons.ttf in Resources */,
+				71C384F63B43B6E68D38F4841B0C02CF /* Octicons.ttf in Resources */,
+				8E458954B8A6E155504C3E474F5F208B /* SimpleLineIcons.ttf in Resources */,
+				5251FA225F7BF26BEF53B4997EF6C182 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA54F2F6282EB4C9B672776EB43D1B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A517E2E025540F722DAB6204D1B434B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40B1BC3E5A3D36EAF8459A61344FB4F /* Pods-SRGFontIcons_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F28182D07A8C0E2C609EA7289E3F50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7CE247742A0691FBF08E8229DDCB60 /* Pods-SRGFontIcons_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F1AAF892A6A80D0100AB25F7FF649D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB4D31220B343209C0A1AAA4B6AD72F /* FontIcons.swift in Sources */,
+				A0DCAD8D714A50DA6C730A57C7831752 /* SRGFontIcons-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5BC56EF669E0E79A9B5FD5FE942AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41C4F8E9BB55C5EAA88B53E09D29F9A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SRGFontIcons;
+			target = A258837F57C8ED7CDAF9114361D03615 /* SRGFontIcons */;
+			targetProxy = 117BD42FB985D60720A86D992AB94447 /* PBXContainerItemProxy */;
+		};
+		4ABCDB2DC2615DA3DC1F2BDCDD4BC22E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SRGFontIcons_Example";
+			target = 2EB17B34B2B5CA19677734BED363F544 /* Pods-SRGFontIcons_Example */;
+			targetProxy = C919678034641635EFF6FFBE085D2D69 /* PBXContainerItemProxy */;
+		};
+		B5829FD5F2BB2D2BFE15AA77F36AF90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SRGFontIcons-SRGFontIcons";
+			target = 2F15CDD38167EC53F40719BF6AB12559 /* SRGFontIcons-SRGFontIcons */;
+			targetProxy = 7DC12CBB45CCA2EFC381714292EB67F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4979D91F5F6EFF7DE69199D6DA811F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B240370DC488358204DA710D2224CC99 /* Pods-SRGFontIcons_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SRGFontIcons_Tests/Pods-SRGFontIcons_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRGFontIcons_Tests/Pods-SRGFontIcons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8050C5B18166FB74BD6449C7EF0C4F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D23384AA6433F99D59A9E9817D144A8 /* SRGFontIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SRGFontIcons";
+				INFOPLIST_FILE = "Target Support Files/SRGFontIcons/ResourceBundle-SRGFontIcons-SRGFontIcons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SRGFontIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		883D319782AC8B45F4B0987547BDC695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE98A641109BBFCB9D470A90582CC71 /* Pods-SRGFontIcons_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SRGFontIcons_Example/Pods-SRGFontIcons_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRGFontIcons_Example/Pods-SRGFontIcons_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9933EF217305BD4C37C167FA5A11B468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D23384AA6433F99D59A9E9817D144A8 /* SRGFontIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SRGFontIcons";
+				INFOPLIST_FILE = "Target Support Files/SRGFontIcons/ResourceBundle-SRGFontIcons-SRGFontIcons-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SRGFontIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A349C2FAFD9AA0D362670518C16BDCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D23384AA6433F99D59A9E9817D144A8 /* SRGFontIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRGFontIcons/SRGFontIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRGFontIcons/SRGFontIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRGFontIcons/SRGFontIcons.modulemap";
+				PRODUCT_MODULE_NAME = SRGFontIcons;
+				PRODUCT_NAME = SRGFontIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53F9F0B8272F821087F31F19C1C921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE42BCD949A3B4E7CB814C5343C4E74 /* Pods-SRGFontIcons_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SRGFontIcons_Tests/Pods-SRGFontIcons_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRGFontIcons_Tests/Pods-SRGFontIcons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C29E4AE9255DAB6EA86467661A7F7048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CB44F67801422FACF27A83722EA453 /* Pods-SRGFontIcons_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SRGFontIcons_Example/Pods-SRGFontIcons_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SRGFontIcons_Example/Pods-SRGFontIcons_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC16BFB5F822AF95754769163DFD7354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D23384AA6433F99D59A9E9817D144A8 /* SRGFontIcons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SRGFontIcons/SRGFontIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SRGFontIcons/SRGFontIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SRGFontIcons/SRGFontIcons.modulemap";
+				PRODUCT_MODULE_NAME = SRGFontIcons;
+				PRODUCT_NAME = SRGFontIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B09A580E354C086611320878E2C2071 /* Build configuration list for PBXNativeTarget "SRGFontIcons-SRGFontIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9933EF217305BD4C37C167FA5A11B468 /* Debug */,
+				8050C5B18166FB74BD6449C7EF0C4F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F01267704F2305701F5A4762AB6FAE9 /* Build configuration list for PBXNativeTarget "Pods-SRGFontIcons_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4979D91F5F6EFF7DE69199D6DA811F6E /* Debug */,
+				B53F9F0B8272F821087F31F19C1C921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DE28378630A8020F97A4007073F3ED /* Build configuration list for PBXNativeTarget "SRGFontIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A349C2FAFD9AA0D362670518C16BDCAE /* Debug */,
+				FC16BFB5F822AF95754769163DFD7354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F247A15EA58FFF75B8158836EC3D10AD /* Build configuration list for PBXNativeTarget "Pods-SRGFontIcons_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883D319782AC8B45F4B0987547BDC695 /* Debug */,
+				C29E4AE9255DAB6EA86467661A7F7048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		24251E095F751B29F7C48B7B /* Pods-SRGFontIcons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGFontIcons_Tests.release.xcconfig"; path = "Target Support Files/Pods-SRGFontIcons_Tests/Pods-SRGFontIcons_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		323F44881405C6A47C6DD1C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		323F44881405C6A47C6DD1C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		45DFC685A1C05B09561D6DF2 /* Pods_SRGFontIcons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRGFontIcons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF04DFD8CCA40337E9AC430 /* Pods-SRGFontIcons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGFontIcons_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SRGFontIcons_Tests/Pods-SRGFontIcons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SRGFontIcons_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRGFontIcons_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8C72389691276D9CA436BF78 /* Pods_SRGFontIcons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRGFontIcons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAC529BA6FF7886626EE787 /* Pods-SRGFontIcons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGFontIcons_Example.release.xcconfig"; path = "Target Support Files/Pods-SRGFontIcons_Example/Pods-SRGFontIcons_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A45966D0937BCB133B7E4178 /* SRGFontIcons.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SRGFontIcons.podspec; path = ../SRGFontIcons.podspec; sourceTree = "<group>"; };
+		A45966D0937BCB133B7E4178 /* SRGFontIcons.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SRGFontIcons.podspec; path = ../SRGFontIcons.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CADD75B1F3998B5355DD49F8 /* Pods-SRGFontIcons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRGFontIcons_Example.debug.xcconfig"; path = "Target Support Files/Pods-SRGFontIcons_Example/Pods-SRGFontIcons_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D40DC3C7A3B701696FED10EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D40DC3C7A3B701696FED10EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				5AF04DFD8CCA40337E9AC430 /* Pods-SRGFontIcons_Tests.debug.xcconfig */,
 				24251E095F751B29F7C48B7B /* Pods-SRGFontIcons_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module SRGFontIcons {
+  umbrella header "SRGFontIcons-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SRGFontIcons (0.1.0)
+
+DEPENDENCIES:
+  - SRGFontIcons (from `../`)
+
+EXTERNAL SOURCES:
+  SRGFontIcons:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SRGFontIcons: 9823b8a460cf5e5c000fcd807d9ccb7885b5d988
+
+PODFILE CHECKSUM: c8b560278983a9346683d3695d753886ce6b3b53
+
+COCOAPODS: 1.7.5
