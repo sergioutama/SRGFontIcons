@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/sergioutama/SRGFontIcons'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sergioutama' => 'sergio.utama@gmail.com' }
+  s.author           = { 'Sergio Utama' => 'sergio.utama@gmail.com' }
   s.source           = { :git => 'https://github.com/sergioutama/SRGFontIcons.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/<sergioutama>'
 
